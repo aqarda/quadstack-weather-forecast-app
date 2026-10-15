@@ -4,14 +4,17 @@ Development framework:
 - TypeScript
 
 Project dependencies:
-Navigation | @react-navigation
+Navigation | @react-navigation/native
+           | @react-navigation/botton-tabs
+           | @react-navigation/native-stack
            | @react-native-screens
            | @react-native-safe-area-context
 Icons      | @expo/vector-icons
+Styling    | React Native 'StyleSheet'
 Location   | @expo-location
 Backend    | @supabase/supbase-js
 Storage    | @react-native-async-storage/async-storage
-Weather    | Open-Meteo Forecast API / Geocoding API
+Weather    | Open-Meteo Forecast API / Geocoding API (called with 'fetch')
 
 Target Devices:
 - Android phones
@@ -25,9 +28,10 @@ Navigation strategy: Tabbed and Stacked navigation
 
 Hardware integrations
 - GPS: shows weather for the user's current location
+- If location permission is denied, the app shows a saved city or asks the user to search for one
 
 Database
-- Supabase
+- Supabase (PostgreSQL) stores saved cities for signed-in users
 - Weather data is not stored. It is always loaded fresh from the API
 
 Authentication
