@@ -37,7 +37,6 @@ Target Devices:
 Description:
     The course requires the program to run in a Android devices, and we are keeping it as portrait display only.
 
-
 Navigation strategy: Tabbed and Stacked navigation
 - Home: current weather, hourly forecast and 7-day forecast
 - Locations: search, save and switch between cities
@@ -46,7 +45,6 @@ Description:
     Main screens will be Home (Current weather, hourly forecast, 7 day forecast), Location(Search for other locations, save, and swap between them), and Settings (Celsius vs Fahrenheit, app permissions, account information)
 
     Navigation isnt fully decided yet but we will use tab navigation for the most part with those 3 main sections. We can include stack navigation for additional pages for account settings or more detailed weather information, this helps the app layout be simple but efficient.
-
 
 Hardware integrations
 - GPS: shows weather for the user's current location
@@ -69,7 +67,6 @@ Description:
     We chose to use supabase to allow users to create and sign into their own account with an email and password. This will be an optional feature so users can check the weather without having to make any account. People who do sign in will have access to saved locations of their choice.
 
     Supabase works well with out planned database and makes authentication easier for us.
-
 
 AI Features
 Description:
