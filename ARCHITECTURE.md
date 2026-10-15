@@ -1,6 +1,17 @@
-Development framework: React Native, Ionic, Cordova, Flutter...
+Development framework: 
+- React Native
+- Expo 
+- TypeScript
 
-Project dependencies: style frameworks, libraries needed for particular features, database tooling, icon libraries -- anything you'll need to set up in relation to react native/other or add to it
+Project dependencies:
+Navigation | @react-navigation
+           | @react-native-screens
+           | @react-native-safe-area-context
+Icons      | @expo/vector-icons
+Location   | @expo-location
+Backend    | @supabase/supbase-js
+Storage    | @react-native-async-storage/async-storage
+Weather    | Open-Meteo Forecast API / Geocoding API
 
 Target Devices:
 - Android phones
@@ -16,6 +27,7 @@ Hardware integrations
 - GPS: shows weather for the user's current location
 
 Database
+- Supabase
 - Weather data is not stored. It is always loaded fresh from the API
 
 Authentication
@@ -25,3 +37,5 @@ Authentication
 - API keys are kept in a .env file that is not uploaded to GitHub
 
 AI Features
+- 
+- 
